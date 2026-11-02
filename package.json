@@ -1,0 +1,16 @@
+{
+  "name": "firearly-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "monitor": "node --env-file-if-exists=.env scripts/monitor.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
